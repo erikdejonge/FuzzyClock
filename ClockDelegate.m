@@ -55,7 +55,7 @@ static unsigned componentFlags = NSCalendarUnitHour | NSCalendarUnitMinute | NSC
     NSString *fuzzy_time = [NSString stringWithFormat: format, hour_name];
 
     return [[NSAttributedString alloc] initWithString: fuzzy_time
-                                           attributes: @{NSFontAttributeName: [NSFont systemFontOfSize: 13]}];
+                                           attributes: @{NSFontAttributeName: [NSFont systemFontOfSize: 14]}];
 }
 
 
